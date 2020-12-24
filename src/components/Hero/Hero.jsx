@@ -26,17 +26,18 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
+            {title || '안녕하세요, 저의 이름은'}{' '}
+            <span className="text-color-main">{name || '이동헌'}</span>
+            {' '}{title || '입니다.'}
             <br />
-            {subtitle || "I'm the Unknown Developer."}
+            {subtitle || "저는 백엔드 개발자가 될 것입니다."}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
+                {cta || '더 알아보기'}
               </Link>
             </span>
           </p>
