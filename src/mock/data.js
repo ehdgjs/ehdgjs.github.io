@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'springboot_bookstore.PNG',
     title: 'SpringBoot를 이용한 온라인 서점',
     info: '관리자가 책을 등록하여 사용자가 책을 구매할 수 있는 Springboot와 MVC패턴을 이용한 온라인 서점으로 제작된 토이 프로젝트입니다.',
-    info2: '데이터베이스 설계, FrontEnd, BackEnd, 서버 배포',
+    info2: '데이터베이스 설계, FrontEnd, BackEnd, 암호화, 서버 배포',
     info3: '[Front] HTML, CSS, Javasciprt / [Back] SpringBoot / [Database] MySQL / [Server] AWS EC2, Codedeploy, S3, travis-ci, nginx',
     url: 'https://github.com/ehdgjs/springboot_bookstore',
     repo: 'http://bookstore.dongheondev.xyz/', // if no repo, the button will not show up
@@ -48,13 +48,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    info3: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'dogfriend.PNG',
+    title: 'Node.js를 이용한 위치기반 그룹화를 통한 반려동물 임시 보호 매칭 시스템',
+    info: '반려동물의 보호자가 집을 비울 때 위치기반으로 주변 반려동물을 보호해줄 수 있는 사용자와 매칭시켜주는 웹페이지로 제작된 팀 프로젝트입니다.',
+    info2: 'BackEnd 개발',
+    info3: '[Front] HTML, CSS, Javasciprt / [Back] Node.js & express.js / [Database] MySQL',
+    url: 'https://github.com/ehdgjs/Nodejs_Dogfriend',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
