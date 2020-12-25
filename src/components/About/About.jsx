@@ -39,14 +39,16 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    '"성공의 이전에는 노력이 있음을 항상 기억하라. 심지어 사전에도 그렇다."'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'BackEnd 개발자를 지망하고 있는 이동헌입니다. '}
+                    <span className="about-wrapper__info-span">{'node.js & express, SpringBoot'}</span>
+                    {paragraphTwo || '를 이용하여 개발한 경험이 있습니다.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || '노력을 통해서 더 훌륭한 실력을 가진 개발자로 성장해 나가겠습니다.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -56,7 +58,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      Github
                     </a>
                   </span>
                 )}

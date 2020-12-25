@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `이동헌의 포트폴리오`,
+        short_name: `이동헌 포트폴리오`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
