@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'springboot_bookstore.PNG',
     title: 'SpringBoot를 이용한 온라인 서점',
     info: '관리자가 책을 등록하여 사용자가 책을 구매할 수 있는 Springboot와 MVC패턴을 이용한 온라인 서점으로 제작된 토이 프로젝트입니다.',
     info2: '데이터베이스 설계, FrontEnd, BackEnd, 서버 배포',
